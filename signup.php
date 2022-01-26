@@ -1,11 +1,4 @@
-<head>
-  <meta charset="UTF-8">
-  <title>Signin Page </title
-  <link href="images/Logo.png" rel="icon">
-  <link rel="stylesheet" href="./style.css">
 
-</head>
-      
       <?php 
       $title = 'Sign Up';
       //include 'header.php'; 
