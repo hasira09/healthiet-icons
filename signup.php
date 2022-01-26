@@ -2,14 +2,6 @@
       $title = 'Sign Up';
       //include 'header.php'; 
 ?>
-
-<head>
-  <meta charset="UTF-8">
-  <title>Login Page </title>
-  <link href="images/Logo.png" rel="icon">
-  <link rel="stylesheet" href="./style.css">
-
-</head>
 <link rel="styleSheet" href="signup.css"/>
 
 <section class="main-container">
