@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 	<head>
 		<meta charset="utf-8">
-		<title>show meal plan</title>
+		<title>Show Meal Plan</title>
 		<link href="images/Logo.png" rel="icon">
 	</head>
     <body>
