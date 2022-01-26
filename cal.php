@@ -107,7 +107,6 @@
 include('includes/database.inc.php');
 
 session_start();
-echo "helloooo";
 if($_SESSION["memberID"] != NULL){
 	if (isset($_GET["submit"])) {
 		$mass = $_GET['weight'];
@@ -130,8 +129,7 @@ if($_SESSION["memberID"] != NULL){
 	}
 	mysqli_stmt_bind_param($stmt, 'ss',$bmi,$memberID);   
 	mysqli_stmt_execute($stmt);       
-	mysqli_stmt_close($stmt); 
-	echo "hello";
+	mysqli_stmt_close($stmt);
 }
 ?> 
 
@@ -149,7 +147,7 @@ if($_SESSION["memberID"] != NULL){
 			<button id="btn" type = "submit" name ="submit"  onClick="BMI()">Calculate</button>
  			</form>
 			<p id="info">Please enter height [cm] and weight [kg]</p>
-            <a href="userPannel.html" class="btn">Home</a>
+			<a href="userPannel.html" class="btn">Home</a>
 	
 		</div>
 </form>
